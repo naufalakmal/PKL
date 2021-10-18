@@ -1,0 +1,104 @@
+nav {
+  z-index: 9999;
+}
+.nav-item a:hover {
+  color: #edb059 !important;
+}
+ul li .aktif {
+  color: #edb059 !important;
+  font-weight: bolder;
+}
+.bg-gelap {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+main .vid {
+  position: absolute;
+  object-fit: cover;
+  z-index: -2;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+  /* mix-blend-mode: overlay; */
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.navigasi {
+  list-style: none;
+  margin-left: -5px;
+  width: 60%;
+  margin-top: 100px;
+}
+.navigasi > li {
+  display: inline-block;
+  padding: 10px;
+}
+.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: #edb059;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.stb {
+  width: 100px;
+  margin-left: -50px;
+  position: absolute;
+}
+.navigasi li a img {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.navigasi li a img:hover {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .navigasi {
+    margin-top: 90px;
+    width: 80%;
+  }
+  .kotak {
+    width: 95px;
+    height: 95px;
+  }
+}
+
+@media (max-width: 524px) {
+  .navigasi {
+    margin-top: 50px;
+    width: 90%;
+  }
+  .kotak {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 373px) {
+  .navigasi {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .kotak {
+    max-width: 65px;
+    height: 65px;
+  }
+}

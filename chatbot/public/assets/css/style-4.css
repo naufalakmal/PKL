@@ -1,0 +1,677 @@
+/*
+Theme Name: eApp - 5 in 1 App Landing Page
+Theme URI: http://live.envalab.com/html/eapp
+Author: ENVALAB
+Author URI: https://themeforest.net/user/envalab/portfolio
+Description: eApp – Creative App Landing Page HTML5 Templateis collection of App marketing pages which are perfect suit for showcase your App or services smart and flexible way. It's not only for a mobile Apps but also for mobile games showcase or any application website showcase. It's include stunning, powerful and unique landing page templates which are perfect to promoting Apps or web services & made for iOS and Android Apps makers.
+Version: 1.0
+*/
+
+/*
+====================================================
+*   eApp DEMO 4 CSS
+*   CSS INDEX
+====================================================
+
+        TOC:
+        0.  RESET CSS
+        1.  HEADER AREA CSS
+        2.  BANNER AREA CSS
+        3.  ABOUT AREA CSS
+        4.  FEATURE AREA CSS
+        5.  TESTIMONIAL AREA CSS
+        6.  SCREENSHOT AREA CSS
+        7.  FEEDBACK AREA CSS
+        8.  PRICING AREA CSS
+        9.  CONTACT AREA CSS
+        10. FOOTER AREA CSS
+        11. SCROLL-TO-TOP AREA CSS
+        12. Pre Loader Style
+
+===================================================================== */
+
+/*----------------------------
+---------- RESET CSS ---------
+----------------------------*/
+.ptb-100 {
+    padding-top: 110px;
+	padding-bottom: 105px;
+}
+.ptb-80 {
+    padding-top: 80px;
+	padding-bottom: 80px;
+}
+.owl-nav div {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 35px;
+    background: #ff6892;
+    color: #fff;
+    height: 35px;
+    line-height: 36px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 29px;
+    transition: 0.4s;
+    margin-top: -60px;
+}
+.owl-nav div:hover {
+    background: #000;
+}
+.owl-nav div.owl-next {
+    right: 0;
+    left: auto;
+}
+.owl-dot {
+	border-color: #000;
+}
+.owl-dot.active {
+    background: #000;
+}
+.sec-title h2 {
+	margin-bottom: 10px;
+}
+.appbox-btn {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    color: #fb695a;
+    padding: 10px 30px;
+    display: inline-block;
+    font-weight: 600;
+	cursor: pointer;
+    font-size: 18px;
+	border-radius: 30px;
+}
+.appbox-btn2,
+.appbox-btn:hover {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.appbox-btn2:hover {
+    background: #ffffff;
+    color: #ff6892;
+}
+.appbox-btn3 {
+    color: #ffffff;
+    border: 1px solid #ff8f99;
+	background: #ff8f99; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff8f99 0%, #ff8998 18%, #ff7194 67%, #ff6892 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ff8f99 0%,#ff8998 18%,#ff7194 67%,#ff6892 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ff8f99 0%,#ff8998 18%,#ff7194 67%,#ff6892 100%);
+}
+.appbox-btn3:hover {
+    color: #ff8f99;
+    border: 1px solid #ff8f99;
+}
+
+/*--------------------------------------
+-------- HEADER AREA CSS START --------
+---------------------------------------*/
+.header {
+    position: fixed;
+    top: 0;
+	padding: 30px 0;
+    left: 0;
+	transition: all 0.4s;
+    width: 100%;
+    z-index: 9;
+	max-height: 110px;
+}
+.mainmenu {
+    text-align: right;
+}
+.mainmenu li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.mainmenu li a {
+    display: inline-block;
+	color: #fff;
+	padding: 5px 0;
+}
+.slicknav_menu {
+	padding: 0;
+    background: transparent;
+}
+.slicknav_menu a.active,
+.mainmenu ul li a:hover,
+.mainmenu ul li a.active {
+	color: #000;
+}
+.mainmenu {
+    display: block;
+}
+.slicknav_menu {
+	display: none;
+}
+.header.sticky {
+    padding: 10px 0;
+	border-bottom: 1px solid #fff;
+	background: #ff6892;
+}
+/*--------------------------------------
+--------- HEADER AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- BANNER AREA CSS START --------
+---------------------------------------*/
+.banner-area {
+    padding-top: 150px;
+    padding-bottom: 135px;
+	z-index: 1;
+	text-align: center;
+	position: relative;
+    background-image: url(../img/appbox-img-4/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-area::after {
+	content: "";
+	top: 0;
+	left: 0;
+    opacity: 0.95;
+	right: 0;
+	bottom: 0;
+    background: #ff80ab;
+	z-index: -1;
+	position: absolute;
+}
+.banner-area::before {
+	content: "";
+	top: 0;
+	left: 0;
+    opacity: 1;
+	right: 0;
+	bottom: 0;
+    background-image: url(../img/appbox-img-4/header-shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	z-index: 0;
+	position: absolute;
+}
+.single-banner {
+    color: #fff;
+}
+.single-banner h1 {
+    color: #fff;
+}
+.single-banner p {
+    margin: 35px auto 0;
+	max-width: 670px;
+	font-size: 16px;
+}
+.single-banner .appbox-btn {
+	min-width: 300px;
+}
+.video-popup {
+    position: relative;
+    padding: 85px 0 70px;
+}
+.video-popup i {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 25px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: all 0.4s;
+    padding-left: 5px;
+}
+.video-popup i:hover {
+	color: #fff;
+	background: transparent;
+}
+/*--------------------------------------
+--------- BANNER AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- FEATURE AREA CSS START --------
+---------------------------------------*/
+.feature-area {
+	text-align: center;
+}
+.single-feature-box {
+	margin-top: 25px;
+	padding: 25px 10px;
+	box-shadow: 0 0 10px #ddd;
+    transition: all 0.4s;
+}
+.single-feature-box i::before {
+    color: #fe718b;
+    font-size: 60px;
+    display: block;
+}
+.single-feature-box:hover {
+    transform: scaleY(1.05);
+}
+.single-feature-box h4 {
+	margin: 28px 0 20px;
+}
+/*--------------------------------------
+--------- FEATURE AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- OVERVIEW AREA CSS START --------
+---------------------------------------*/
+.overview-area {
+    position: relative;
+    z-index: 1;
+	color: #fff;
+    background-image: url(../img/appbox-img-4/overview-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overview-area::after {
+    content: "";
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    right: 0;
+    bottom: 0;
+    background: #ff6892;
+    z-index: -1;
+    position: absolute;
+}
+.single-overview-box h2 {
+    text-transform: uppercase;
+	color: #fff;
+}
+.single-overview-box p {
+	margin-top: 25px;
+}
+.single-overview-box .appbox-btn {
+	margin-top: 50px;
+}
+/*--------------------------------------
+--------- OVERVIEW AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- SCREENSHOT AREA CSS START --------
+---------------------------------------*/
+.screenshot-area-slider {
+    padding: 0 60px;
+}
+.screenshot-single-slide {
+	position: relative;
+	overflow: hidden;
+}
+.screenshot-overlay {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+	opacity: 0;
+	right: 0;
+    transition: all 0.4s;
+}
+.screenshot-single-slide:hover .screenshot-overlay {
+    height: 100%;
+	opacity: 1;
+}
+.screenshot-overlay a {
+    background: #ff6892;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    font-size: 18px;
+    color: #fff;
+    line-height: 60px;
+    top: 0;
+    text-align: center;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+/*--------------------------------------
+-------- SCREENSHOT AREA CSS END -------
+---------------------------------------*/
+
+/*--------------------------------------
+------ ACTIVITY AREA CSS START -------
+---------------------------------------*/
+.activity-area {
+	z-index: 1;
+	position: relative;
+    background-image: url(../img/appbox-img-4/activity.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	overflow: hidden;
+}
+.activity-area::before {
+	content: "";
+	top: 0;
+	left: 0;
+    opacity: 0.85;
+	width: 100%;
+	background: #ffffff;
+	bottom: 0;
+	z-index: -2;
+	position: absolute;
+}
+.activity-popup::before {
+	content: "";
+	top: 0;
+	right: 0;
+	opacity: 0.7;
+	left: 0;
+	background: #ff8697;
+	bottom: 0;
+	z-index: -1;
+	position: absolute;
+	transform: skewX(-25deg);
+}
+.activity-box-chart {
+	position: relative;
+}
+.activity-box-chart span {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.single-activity-box canvas {
+    display: inline-block;
+    vertical-align: baseline;
+    max-width: 150px;
+}
+.activity-area .sec-title {
+    margin: 0 auto 20px;
+}
+.single-activity-box {
+    text-align: center;
+    margin: 40px 0 0;
+}
+.single-activity-box h4 {
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.activity-popup {
+	position: absolute;
+	width: 30%;
+	right: 0;
+	top: 0;
+	text-align: center;
+	bottom: 0;
+}
+.activity-popup .video-popup i {
+	background: transparent;
+	color: #fff;
+}
+.activity-popup .video-popup i:hover {
+	background: #fff;
+	color: #000;
+}
+/*--------------------------------------
+------- ACTIVITY AREA CSS END --------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- TEAM AREA CSS START --------
+---------------------------------------*/
+.single-team-box {
+    box-shadow: 0 0 10px #ddd;
+    margin: 35px 5px 0;
+    position: relative;
+    padding: 95px 0 0;
+	transition: all 0.4s;
+    text-align: center;
+}
+.single-team-box:hover {
+	transform: scale(0.95);
+}
+.single-team-member {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+}
+.single-team-member img {
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    width: auto !important;
+}
+.single-team-info {
+    position: relative;
+    z-index: 1;
+	padding: 0 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.single-team-info::before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 100%;
+    max-width: 60px;
+    background: #ff6892;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.single-team-box > p {
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 13px;
+}
+.single-team-info p {
+	margin-top: 5px;
+	font-weight: 300;
+}
+.single-team-icon {
+	background: #ff6892;
+	padding: 15px;
+}
+.single-team-icon a {
+    width: 30px;
+	margin: 0 4px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+	color: #fff;
+    border: 1px solid #eee;
+}
+.single-team-icon a:hover {
+	background: #fff;
+	color: #363843;
+}
+/*--------------------------------------
+---------- TEAM AREA CSS END -----------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- DOWNLOAD AREA CSS START --------
+---------------------------------------*/
+.download-area {
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    background: #ff6892;
+}
+.single-download-box {
+	color: #fff;
+}
+.single-download-box h1 {
+	color: #fff;
+	margin-bottom: 30px;
+}
+.single-download-box h1 span {
+	display: block;
+}
+.single-download-box p {
+	padding-bottom: 25px;
+}
+.single-download-box .appbox-btn {
+	margin-top: 20px;
+	margin-right: 15px;
+}
+.single-download-img {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 50%;
+    bottom: 30px;
+    margin: auto;
+    background-image: url(../img/appbox-img-4/download.png);
+    background-size: cover;
+    background-position: left center;
+}
+/*--------------------------------------
+--------- DOWNLOAD AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+------- CONTACT AREA CSS START -------
+---------------------------------------*/
+.contact-form-7 button {
+	width: 100%;
+	padding: 15px;
+}
+.contact-form-7 button i {
+	margin-left: 5px;
+}
+.contact-form-7 textarea ,
+.contact-form-7 input {
+	width: 100%;
+	padding: 15px 20px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+.contact-form-7 {
+    font-weight: 500;
+	padding-top: 12px;
+}
+.contact-form-7 textarea {
+	height: 135px;
+	margin-bottom: 25px;
+}
+.contact-form-7 input[type=checkbox],
+.contact-form-7 input[type=radio] {
+    width: auto;
+}
+.contact-form-7 p {
+    display: inline-block;
+    margin-left: 10px;
+}
+.contact-container {
+    position: relative;
+    margin-bottom: 18px;
+}
+.contact-container input {
+    padding-right: 40px;
+}
+.contact-container i {
+    position: absolute;
+    top: 20px;
+    margin: auto;
+    right: 20px;
+    max-width: 15px;
+    font-size: 15px;
+    color: #888;
+}
+/*--------------------------------------
+-------- CONTACT AREA CSS END --------
+---------------------------------------*/
+
+/*--------------------------------------
+--------- FOOTER AREA CSS START --------
+---------------------------------------*/
+.footer {
+	padding: 22px 0;
+	font-size: 12px;
+	color: #fff;
+	background: #ff6892;
+}
+.footer a {
+	color: #fff;
+}
+.footer a:hover {
+	color: #000;
+}
+.footer-content ul {
+	text-align: right;
+}
+.footer-content li {
+    display: inline-block;
+    margin-left: 15px;
+}
+/*--------------------------------------
+---------- FOOTER AREA CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+----- SCROLL-TO-TOP AREA CSS START -----
+---------------------------------------*/
+.scrolltotop {
+    position: fixed;
+    bottom: 30px;
+    text-align: center;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+    display: none;
+    text-decoration: none;
+    border-radius: 100%;
+    color: #fff;
+	font-size: 28px;
+    line-height: 48px;
+	border: 3px double #fff;
+    background: #ff6892;
+}
+.scrolltotop:hover {
+	transform: scale(0.9);
+    color: #fff;
+}
+.scrolltotop:focus ,
+.scrolltotop:hover {
+	border: 3px double #fff;
+}
+/*--------------------------------------
+------ SCROLL-TO-TOP AREA CSS END ------
+---------------------------------------*/
+
+/* Pre Loader Style */
+.js div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 988899;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url('../img/loader.gif') no-repeat center center;
+}
+/* END of Pre Loader Style */

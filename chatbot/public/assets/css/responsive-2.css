@@ -1,0 +1,134 @@
+@media only screen and (max-width: 991px){
+	.mainmenu li {
+		margin-left: 9px;
+		font-size: 12px;
+	}
+	.mainmenu li a {
+		padding: 2px 0;
+	}
+	.single-banner {
+		margin-bottom: 40px;
+	}
+	.single-feature-box.text-center {
+		margin-top: 50px;
+	}
+	.single-overview-box.text-lg-left.text-center {
+		margin-bottom: 50px;
+	}
+	.single-overview-box .appbox-btn {
+		margin-top: 25px;
+	}
+	.single-activity-box h2 {
+		margin: 8px 0 5px;
+	}
+	.footer-content ,
+	.footer-content ul {
+		text-align: center;
+	}
+	.footer-content ul {
+		margin-top: 5px;
+	}
+	.feedback-area .sec-title {
+		margin-bottom: 40px;
+	}
+	.banner-area {
+		padding-bottom: 30px;
+	}
+	.owl-dots {
+		margin-top: 15px;
+	}
+	.single-feature-box h2 {
+		margin-top: 0;
+	}
+}
+@media only screen and (max-width: 767px){
+	.mainmenu {
+		display: none;
+	}
+	.responsive-menu,
+	.slicknav_menu {
+		display: block;
+	}
+	ul.slicknav_nav {
+		position: absolute;
+		background: #e1a0f7;
+		background: -moz-linear-gradient(left, #e1a0f7 0%, #d39ff8 21%, #9b9cfa 75%, #7c9afc 100%);
+		background: -webkit-linear-gradient(left, #e1a0f7 0%,#d39ff8 21%,#9b9cfa 75%,#7c9afc 100%);
+		background: linear-gradient(to right, #e1a0f7 0%,#d39ff8 21%,#9b9cfa 75%,#7c9afc 100%);
+		right: 15px;
+		top: 100%;
+		z-index: 9;
+	    border: 2px solid #fff;
+	}
+	.slicknav_menu .slicknav_menutxt {
+		display: none;
+	}
+	.slicknav_menu .slicknav_icon {
+		margin: 0;
+	}
+	.slicknav_nav a:hover {
+		background: transparent;
+	}
+	.header {
+		padding: 20px 0;
+	}
+	.sec-title {
+		margin-bottom: 30px;
+	}
+	.card {
+		padding: 0;
+		padding-right: 15px;
+	}
+}
+@media only screen and (max-width: 576px){
+	.single-banner h1 {
+		font-size: 25px;
+	}
+	.author-feedback {
+		padding: 0;
+	}
+	.author-single-slide {
+		margin: 60px 20px 20px;
+		padding: 55px 10px 20px;
+	}
+	.contact-form-7 button {
+		margin-top: 10px;
+		width: auto;
+		padding: 8px 40px;
+	}
+	.contact-form-7 textarea {
+		margin-bottom: 5px;
+	}
+	.card-body {
+		margin: 10px 15px 20px;
+		padding-left: 15px;
+	}
+	.author-feedback .owl-nav div {
+		top: 100%;
+		margin-top: 20px;
+	}
+	.author-feedback .owl-nav div.owl-prev {
+		left: 50%;
+		margin-left: -40px;
+	}
+	.author-feedback .owl-nav div.owl-next {
+		right: 50%;
+		margin-right: -40px;
+	}
+	.single-banner p {
+		margin: 20px 0;
+	}
+	.logo {
+		max-width: 100px;
+		margin-top: 7px;
+	}
+	.single-feature-box .appbox-btn {
+		margin-top: 15px;
+	}
+	.owl-dots {
+		margin-top: 20px;
+	}
+	.screenshot-area-slider .owl-nav div {
+		margin-top: -40px;
+	}
+}

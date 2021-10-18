@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/099c68fb30.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Xpora</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+      <a class="navbar-brand ml-10" href="#">
+        <img src="images/Xpora.png" alt="logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link current" href="#">Beranda</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#">Market</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pendanaan</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#">Inspirasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Legalitas</a>
+          </li>
+          <li class="nav-item pl-4">
+            <a class="nav-link" href="#">Tentant Xpora</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-10">
+          <li class="nav-item">
+            <a class="nav-link bell mr-2" href="#"
+              ><i class="fas fa-bell"></i
+            ></a>
+          </li>
+          <li class="nav-item img">
+            <img src="images/profile.png" alt="profile" />
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle current"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Munawir
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lang" href="#">ID</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lang-opa" href="#">EN</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid bg-transparent">
+      <img
+        class="bg-hero position-absolute"
+        src="images/bg-hero.png"
+        alt="hero"
+      />
+      <div class="container mt-30">
+        <h1 class="display-5 f-800 blue">
+          Belajar bisnis mudah untuk <br />
+          tingkatkan wawasan <br />
+          usaha Anda di sini
+        </h1>
+        <p class="lead blue f-700 mt-5">
+          Akses video dan kelas pengembangan bisnis <br />
+          untuk UKM di Xpora!
+        </p>
+        <div class="d-flex flex-row mt-4">
+          <img src="images/round.png" alt="swiper" />
+          <img src="images/round.png" alt="swiper" class="px-1" />
+          <img src="images/rectangle.png" alt="swiper" />
+          <img src="images/round.png" alt="swiper" class="px-1" />
+        </div>
+      </div>
+    </div>
+
+    <!-- search  -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-8 info-panel justify-content-center pb-1">
+          <label for="search" class="ml-2 mr-3 search">
+            <i class="fas fa-search orange bell"></i>
+          </label>
+          <input
+            id="search"
+            type="text"
+            class="inp mb-1"
+            placeholder="Contoh: Digital Marketing"
+          />
+          <i class="fas fa-times orange mb-1"></i>
+          <p class="mt-2 ml-3 mr-1 divider">|</p>
+          <div class="dropdown">
+            <button
+              class="btn mb-1 dropdown-toggle blue f-700"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Semua Kategori
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- cards -->
+    <div class="container mt-20">
+      <h2 class="f-700 mb-4">Pembelajaran Xpora</h2>
+      <div class="row">
+        <div
+          class="
+            col-4
+            info-card-1
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+        >
+          <h4 class="f-700">Pelatihan Bisnis</h4>
+        </div>
+        <div
+          class="
+            col-4
+            ml-5
+            info-card-2
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+        >
+          <h4 class="f-700">Video Inspirasi</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- kategori -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-auto d-flex align-items-center">
+          <span class="gray f-700">Kategori Populer :</span>
+        </div>
+        <div class="col-md-auto">
+          <button class="button active">Agrikultur</button>
+        </div>
+        <div class="col-md-auto">
+          <button class="button">Pertanian</button>
+        </div>
+        <div class="col-md-auto">
+          <button class="button">Konveksi</button>
+        </div>
+        <div class="col-md-auto">
+          <button class="button">Lihat Semua Kategori</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- another kategori -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md">
+          <span class="gray f-700">Level Pemahaman</span>
+        </div>
+        <div class="col-md">
+          <span class="gray f-700">Skala Bisnis</span>
+        </div>
+        <div class="col-md">
+          <span class="gray f-700">Ekspor</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- dropdown -->
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-md">
+          <div class="dropdown">
+            <button
+              class="btn mb-1 opacity dropdown-toggle blue f-700"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Level 1
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="dropdown">
+            <button
+              class="btn mb-1 opacity dropdown-toggle blue f-700"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Small
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="dropdown">
+            <button
+              class="btn mb-1 opacity dropdown-toggle blue f-700"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              No Ekspor
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pelatihan bisnis -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-8">
+          <h3 class="f-800">Pelatihan Bisnis</h3>
+        </div>
+        <div class="col-md-4 text-right">
+          <span class="gray mr-4">75 Pelatihan</span>
+          <span class="f-700 orange">Semua Kegiatan</span>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-between mt-2">
+        <div class="col-md-auto">
+          <div class="card w-32 bordered mb-2">
+            <img
+              src="images/card-grid1.png"
+              class="card-img-top w-32"
+              alt="..."
+            />
+            <div
+              class="card-body d-flex flex-row-reverse justify-content-between"
+            >
+              <span class="span-btn"> Level 1 </span>
+              <p class="gray span-12">
+                <i class="far fa-calendar blue"></i> Periode Belajar: <br />
+                <span class="span-16 f-700 gray-dark"
+                  >Juli 2021 - Juni 2022</span
+                >
+              </p>
+            </div>
+            <div class="card-body title">
+              <h6 class="f-700 orange">XPORA JAKARTA - SHOPEE</h6>
+            </div>
+            <div
+              class="card-body d-flex flex-row justify-content-between title"
+            >
+              <span class="gray-dark f-700">Offline</span>
+              <span>15 Kuota Tersisa</span>
+            </div>
+            <div class="card-body d-flex flex-row-reverse title">
+              <span class="gray-dark f-700">Sertifikat</span>
+              <i class="fas fa-certificate mr-2 pt-1 blue"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto mb-2">
+          <div class="card w-32 bordered mb-2">
+            <img
+              src="images/card-grid1.png"
+              class="card-img-top w-32"
+              alt="..."
+            />
+            <div
+              class="card-body d-flex flex-row-reverse justify-content-between"
+            >
+              <span class="span-btn"> Level 1 </span>
+              <p class="gray span-12">
+                <i class="far fa-calendar blue"></i> Periode Belajar: <br />
+                <span class="span-16 f-700 gray-dark"
+                  >Juli 2021 - Juni 2022</span
+                >
+              </p>
+            </div>
+            <div class="card-body title">
+              <h6 class="f-700 orange">XPORA JAKARTA - SHOPEE</h6>
+            </div>
+            <div
+              class="card-body d-flex flex-row justify-content-between title"
+            >
+              <span class="gray-dark f-700">Offline</span>
+              <span>15 Kuota Tersisa</span>
+            </div>
+            <div class="card-body d-flex flex-row-reverse title">
+              <span class="gray-dark f-700">Sertifikat</span>
+              <i class="fas fa-certificate mr-2 pt-1 blue"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto">
+          <div class="card w-32 bordered mb-2">
+            <img
+              src="images/card-grid1.png"
+              class="card-img-top w-32"
+              alt="..."
+            />
+            <div
+              class="card-body d-flex flex-row-reverse justify-content-between"
+            >
+              <span class="span-btn"> Level 1 </span>
+              <p class="gray span-12">
+                <i class="far fa-calendar blue"></i> Periode Belajar: <br />
+                <span class="span-16 f-700 gray-dark"
+                  >Juli 2021 - Juni 2022</span
+                >
+              </p>
+            </div>
+            <div class="card-body title">
+              <h6 class="f-700 orange">XPORA JAKARTA - SHOPEE</h6>
+            </div>
+            <div
+              class="card-body d-flex flex-row justify-content-between title"
+            >
+              <span class="gray-dark f-700">Offline</span>
+              <span>15 Kuota Tersisa</span>
+            </div>
+            <div class="card-body d-flex flex-row-reverse title">
+              <span class="gray-dark f-700">Sertifikat</span>
+              <i class="fas fa-certificate mr-2 pt-1 blue"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video inspirasi -->
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-8">
+          <h3 class="f-800">Video Inspirasi</h3>
+        </div>
+        <div class="col-md-4 text-right">
+          <span class="gray mr-4">75 Pelatihan</span>
+          <span class="f-700 orange">Semua Kegiatan</span>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-between mt-2">
+        <div class="col-md-auto">
+          <div class="card w-32 bordered mb-2">
+            <img
+              src="images/card-grid2.png"
+              class="card-img-top w-32"
+              alt="..."
+            />
+            <div
+              class="
+                card-body
+                d-flex
+                flex-row-reverse
+                justify-content-between
+                align-items-center
+              "
+            >
+              <span class="span-btn"> Level 1 </span>
+              <h6 class="gray">BNI University</h6>
+            </div>
+            <div class="card-body title-plus">
+              <h6 class="f-700 orange">
+                The Road to Golden Age Series 6: Memulai Bisnis Catering dari
+                Hobi
+              </h6>
+            </div>
+            <div class="card-body d-flex flex-row-reverse title">
+              <span class="gray-dark f-700">30 Min</span>
+              <i class="fas fa-play-circle mr-2 pt-1 orange"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto">
+          <div class="card w-32 bordered mb-2">
+            <img
+              src="images/card-grid2.png"
+              class="card-img-top w-32"
+              alt="..."
+            />
+            <div
+              class="
+                card-body
+                d-flex
+                flex-row-reverse
+                justify-content-between
+                align-items-center
+              "
+            >
+              <span class="span-btn"> Level 1 </span>
+              <h6 class="gray">BNI University</h6>
+            </div>
+            <div class="card-body title-plus">
+              <h6 class="f-700 orange">
+                The Road to Golden Age Series 6: Memulai Bisnis Catering dari
+                Hobi
+              </h6>
+            </div>
+            <div class="card-body d-flex flex-row-reverse title">
+              <span class="gray-dark f-700">30 Min</span>
+              <i class="fas fa-play-circle mr-2 pt-1 orange"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto">
+          <div class="card w-32 bordered mb-2">
+            <img
+              src="images/card-grid2.png"
+              class="card-img-top w-32"
+              alt="..."
+            />
+            <div
+              class="
+                card-body
+                d-flex
+                flex-row-reverse
+                justify-content-between
+                align-items-center
+              "
+            >
+              <span class="span-btn"> Level 1 </span>
+              <h6 class="gray">BNI University</h6>
+            </div>
+            <div class="card-body title-plus">
+              <h6 class="f-700 orange">
+                The Road to Golden Age Series 6: Memulai Bisnis Catering dari
+                Hobi
+              </h6>
+            </div>
+            <div class="card-body d-flex flex-row-reverse title">
+              <span class="gray-dark f-700">30 Min</span>
+              <i class="fas fa-play-circle mr-2 pt-1 orange"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
